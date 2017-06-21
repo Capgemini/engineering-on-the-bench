@@ -5,6 +5,7 @@ Ansible is an open source automation platform. Ansible can help you with configu
 Ansible is available for free and runs on Linux, Mac or BSD. 
 
 #Ad-Hoc Commands(For the quick check)
+
  To check all my inventory hosts are ready to be managed by ansible
  
  $ansible all -m ping
@@ -35,3 +36,19 @@ Ansible is available for free and runs on Linux, Mac or BSD.
  $ ansible all -i hosts -u {connecting_user} -m ping ( Whether i have a connectivity to target m/c)
  
  e.g., connecting user - vagrant, -m : module
+ 
+ #Variables
+ 
+ file: Adirectory should exist
+ yum: A package should be installed
+ service: A service should be running
+ template: Render a config file from a template
+ get_url: Fetch an archive file from a URL
+ git: Clone a source code repository
+ 
+ 
+ #Handler Tasks
+ 
+ Handlers are special tasks that run at the end of the play if notified by another task.
+ 
+ if a configuration file gets changed notify a service restart task it needs to run
