@@ -1,4 +1,4 @@
-# Ansible Essentials
+# Ansible Examples
 
 Ansible is an open source automation platform. Ansible can help you with configuration management technology used to provision, application deployment, task automation and manage compute infrastructure across cloud, virtual, and physical environments. Ansible uses SSH which is assumed to be installed on all the systems you want to manage.
 
@@ -79,3 +79,9 @@ Ansible is available for free and runs on Linux, Mac or BSD.
  Handlers are special tasks that run at the end of the play if notified by another task.
  
  if a configuration file gets changed notify a service restart task it needs to run
+
+## PLAYS &PLAYBOOKS
+
+	Plays are ordered sets of tasks to execute against host selections from your inventory.
+	
+	A Playbook is a file containing one or more plays.
