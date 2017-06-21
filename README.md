@@ -1,8 +1,6 @@
 #Ansible Essentials
 
-Ansible is an automation and configuration management technology used to provision, deploy, and manage compute infrastructure across cloud, virtual, and physical environments
-
-Ansible is an open source automation platform. Ansible can help you with configuration management, application deployment, task automation. Ansible uses SSH which is assumed to be installed on all the systems you want to manage.
+Ansible is an open source automation platform. Ansible can help you with configuration management technology used to provision, application deployment, task automation and manage compute infrastructure across cloud, virtual, and physical environments. Ansible uses SSH which is assumed to be installed on all the systems you want to manage.
 
 Ansible is available for free and runs on Linux, Mac or BSD. 
 
