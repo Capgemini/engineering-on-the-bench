@@ -1,0 +1,3 @@
+Common configuration using ansible
+=========
+

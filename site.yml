@@ -1,0 +1,8 @@
+---
+- name: apply common configuration to all hosts
+  hosts: all
+  become: yes
+  serial: "{{serial_var|default(0)}}"
+
+  roles:
+  - common
