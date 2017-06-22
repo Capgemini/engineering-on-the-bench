@@ -56,9 +56,6 @@ Ansible is available for free and runs on Linux, Mac or BSD.
  $ ansible webserver -i hosts -u vagrant -m yum -a "name=httpd state=absent" -b
  ```
  
- 
- 
- 
  ## Variables
  
  **file**: Adirectory should exist
@@ -82,6 +79,6 @@ Ansible is available for free and runs on Linux, Mac or BSD.
 
 ## PLAYS &PLAYBOOKS
 
-	Plays are ordered sets of tasks to execute against host selections from your inventory.
+ Plays are ordered sets of tasks to execute against host selections from your inventory.
 	
-	A Playbook is a file containing one or more plays.
+ A Playbook is a file containing one or more plays.
