@@ -4,7 +4,7 @@ Ansible is an open source automation platform. Ansible can help you with configu
 
 Ansible is available for free and runs on Linux, Mac or BSD. 
 
-## Ad-Hoc Commands(For the quick check)
+## Ad-Hoc Commands
 
  ###### To check all my inventory hosts are ready to be managed by ansible
  ```
